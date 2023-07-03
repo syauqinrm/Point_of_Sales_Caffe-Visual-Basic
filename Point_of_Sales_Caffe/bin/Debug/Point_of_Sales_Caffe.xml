@@ -1,0 +1,156 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Point_of_Sales_Caffe
+</name>
+</assembly>
+<members>
+<member name="T:Point_of_Sales_Caffe.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Point_of_Sales_Caffe.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Point_of_Sales_Caffe.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet.tbl_datapenjualanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet.tbl_datapenjualanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet.tbl_datapenjualanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.tbl_datapenjualanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Point_of_Sales_Caffe.db_poscaffeDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Point_of_Sales_Caffe.db_poscaffeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Point_of_Sales_Caffe.db_poscaffeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.TableAdapterManager.UpdateAll(Point_of_Sales_Caffe.db_poscaffeDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet1.tbl_dtlpenjualanDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet1.tbl_dtlpenjualanRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet1.tbl_dtlpenjualanRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.tbl_dtlpenjualanTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Point_of_Sales_Caffe.db_poscaffeDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Point_of_Sales_Caffe.db_poscaffeDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Point_of_Sales_Caffe.db_poscaffeDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.TableAdapterManager.UpdateAll(Point_of_Sales_Caffe.db_poscaffeDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Point_of_Sales_Caffe.db_poscaffeDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
